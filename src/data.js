@@ -13,16 +13,6 @@ function chillHop() {
       active: true,
     },
     {
-      name: "You and I",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/10/0e5bb63f838ff92eeac142aae944e9f678df13c9-1024x1024.jpg",
-      artist: "Melodiesinfonie",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=10336",
-      color: ["#275564", "#D7A1B9"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
       name: "Seascape",
       cover:
         "https://chillhop.com/wp-content/uploads/2020/11/f78c39b4bb6313ddd0354bef896c591bfb490ff8-1024x1024.jpg",
@@ -66,6 +56,16 @@ function chillHop() {
       artist: "Dontcry, Nokiaa",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=2928",
       color: ["#6A39AE", "#35468F"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "You and I",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/10/0e5bb63f838ff92eeac142aae944e9f678df13c9-1024x1024.jpg",
+      artist: "Melodiesinfonie",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10336",
+      color: ["#275564", "#D7A1B9"],
       id: uuidv4(),
       active: false,
     },
