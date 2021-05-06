@@ -32,6 +32,43 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Fuzz",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/edaf1202cf33c7a2a122b7494a7e4d3e643af45f-1024x1024.jpg",
+      artist: "Miscel",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=6005",
+      color: ["#AD476C", "#C8795B"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Persist",
+      cover: "https://i.scdn.co/image/ab67616d0000b273043dfeac847e1525b3b39ed3",
+      artist: "invention_",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=5142",
+      color: ["#F8E4DC", "#364B80"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Night Walk",
+      cover: "https://i.scdn.co/image/7d4b27a6c7946f3d2bfc9b4138d0c0877e5345b8",
+      artist: "xander.",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=3172",
+      color: ["#543B21", "#49532F"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Purple",
+      cover: "https://i.scdn.co/image/ab67616d0000b2730e7526acfa023ac451723b36",
+      artist: "Dontcry, Nokiaa",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=2928",
+      color: ["#6A39AE", "#35468F"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
