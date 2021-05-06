@@ -12,19 +12,19 @@ const LibrarySong = ({
   const selectedSonghandler = async () => {
     await setCurrentSong(song);
     const newSongs = songs.map((song) => {
-      if(song.id === id){
+      if (song.id === id) {
         return {
-          ...song, 
+          ...song,
           active: true,
-        }
-      }else {
-      return {
-        ...song, 
-        active: false,
-      };
-     }
+        };
+      } else {
+        return {
+          ...song,
+          active: false,
+        };
+      }
     });
-    
+
     setSongs(newSongs);
 
     if (isPlaying) {
@@ -40,7 +40,10 @@ const LibrarySong = ({
   };
 
   return (
-    <div onClick={selectedSonghandler} className={`library-song ${song.active ? 'selected' : ""}`}>
+    <div
+      onClick={selectedSonghandler}
+      className={`library-song ${song.active ? "selected" : ""}`}
+    >
       <img alt={song.name} src={song.cover}></img>
       <div className="song-description">
         <h3>{song.name}</h3>
